@@ -1,0 +1,4 @@
+[06-Nov-2022 05:32:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/jjzgtxmy/public_html/nepovit/wp-content/themes/twentytwentyone/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jjzgtxmy/public_html/nepovit/wp-content/themes/twentytwentyone/404.php on line 12

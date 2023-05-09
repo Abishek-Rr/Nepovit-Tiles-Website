@@ -1,0 +1,70 @@
+/* Theme-specific rules for the WP Editor */
+.trx_addons_color_hovered {
+	color:#000;
+}
+
+.trx_addons_tooltip {
+}
+.trx_addons_tooltip:before {
+	font-weight: 500;
+}
+
+blockquote {
+    color: #5b5551;
+    background-color: #f5f4f0;
+}
+
+.trx_addons_dropcap {
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.trx_addons_dropcap.trx_addons_dropcap_style_1 {
+	font-size: 2.813em;
+	font-weight: 400;
+    width: 1.32em;
+    height: 1.29em;
+    line-height: 1.29em;
+    margin: 0.15em 0.45em 0.15em 0;
+}
+.wpb_text_column .trx_addons_dropcap.trx_addons_dropcap_style_1 {
+	margin-bottom: 0.15em;
+}
+
+.trx_addons_dropcap.trx_addons_dropcap_style_2 {
+	font-size: 5em;
+	font-weight: 400;
+    width: 1em;
+    height: 0.9em;
+    line-height: 0.9em;
+    text-align: left;
+    margin: 0 0.08em 0 0;
+}
+
+ul[class*="trx_addons_list_custom"]{
+	padding: 0; 
+}
+ul[class*="trx_addons_list_custom"] li {
+	font-size: 1.125em;
+	font-weight: 600;
+	letter-spacing: -0.7px;
+    line-height: 1.3em;
+    padding: 0.973em 0em 0.862em 2.95em;
+}
+ul[class*="trx_addons_list_custom"] li:before {
+	content: '\e922';
+	font-family: 'fontello';
+	font-size: 1.372em;
+	font-weight: 400;
+	top: 50%;
+	left: 0.64em;
+	-webkit-transform:translateY(-50%);
+	    -ms-transform:translateY(-50%);
+	        transform:translateY(-50%);	
+}
+.trx_addons_inline_decor{
+    font-size: 1.734em;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+}

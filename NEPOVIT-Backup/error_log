@@ -1,0 +1,8 @@
+[30-Sep-2022 13:50:08 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33
+[30-Sep-2022 13:50:08 America/Boise] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33
+[30-Sep-2022 13:50:08 America/Boise] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33
+[30-Sep-2022 13:50:08 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33
+[30-Sep-2022 13:50:12 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33
+[30-Sep-2022 13:50:12 America/Boise] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33
+[30-Sep-2022 13:50:12 America/Boise] PHP Warning:  require(ABSPATHwp-includes/version.php): failed to open stream: No such file or directory in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33
+[30-Sep-2022 13:50:12 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/version.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jjzgtxmy/public_html/nepovit/wp-settings.php on line 33

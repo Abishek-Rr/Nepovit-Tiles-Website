@@ -1,0 +1,75 @@
+/* Calendar */
+table.booked-calendar tr.days th {
+	border: 1px solid #ddd !important;
+}
+table.booked-calendar td,
+table.booked-calendar td+td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+body table.booked-calendar thead th {
+	border: none !important;
+}
+
+body table.booked-calendar thead th .monthName {
+	text-transform: none;
+}
+body .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button {
+	font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em 2.5em;
+}
+
+/* Booked form */
+body .booked-form .field .checkbox-radio-block label {
+	padding-left: 1.4em;
+}
+body .booked-form .field .checkbox-radio-block label:before {
+	line-height: 0.65em;
+}
+
+body .booked-modal button.cancel,
+body .booked-modal input[type=submit].button-primary {
+    font-size: 0.94em;
+    padding: 1em 2em;
+}
+
+
+/* Login form */
+#booked-page-form .login-remember input {
+	display: inline;
+	vertical-align:middle;
+}
+
+#booked-profile-page i.fa {
+	color: inherit;
+}
+
+/* User profile header */
+#booked-profile-page div.booked-profile-header {
+	padding: 0 0 2em;
+}
+#booked-profile-page div.booked-user-avatar {
+	width: 50px;
+	height:50px;
+}
+#booked-profile-page div.booked-user-avatar img {
+	-webkit-border-radius: 50%;
+	    -ms-border-radius: 50%;
+			border-radius: 50%;
+}
+#booked-profile-page .booked-user h3 strong {
+	font-weight:400;
+}
+
+/* User profile content */
+#booked-profile-page div.booked-tab-content {
+	-webkit-border-radius: 0;
+	    -ms-border-radius: 0;
+			border-radius: 0;
+}
+
+.booked-calendar-wrap.large > font {
+	display: none !important;
+}

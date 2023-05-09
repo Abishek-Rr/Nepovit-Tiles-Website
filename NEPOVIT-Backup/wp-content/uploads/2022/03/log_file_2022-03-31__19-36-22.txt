@@ -1,0 +1,58 @@
+
+---Downloaded files---
+The import files for: Hompark Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://nepovit.com
+Data file = /home1/jjzgtxmy/public_html/nepovit/wp-content/uploads/2022/03/demo-content-import-file_2022-03-31__19-36-22.xml
+Widget file = /home1/jjzgtxmy/public_html/nepovit/wp-content/uploads/2022/03/demo-widgets-import-file_2022-03-31__19-36-22.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Hamburger Content : 
+
+Custom HTML - No Title - Imported
+
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Meta - No Title - Imported
+
+Footer 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer 2 : 
+
+Custom HTML - No Title - Imported
+
+Footer 3 : 
+
+Custom HTML - No Title - Imported
+
+Footer 4 : 
+
+Custom HTML - No Title - Imported
+
+
+
+---ocdi/after_import---
+

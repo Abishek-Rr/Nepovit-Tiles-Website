@@ -1,0 +1,139 @@
+form.wpcf7-form textarea,
+form.wpcf7-form input[type="text"]{
+    width: 100%;
+}
+
+form.wpcf7-form .row {
+    padding-bottom: 1.3em;
+    margin-right: 0;
+}
+
+form.wpcf7-form input[type="checkbox"],
+form.wpcf7-form input[type="submit"]{
+    width: auto;
+}
+
+form.wpcf7-form span[class*='acceptance'] span.wpcf7-list-item {
+    margin: 0.3em 0 0 0;
+    display: block;
+    position: relative;
+    line-height: 1em;
+}
+form.wpcf7-form .ajax-loader,
+form.wpcf7-form span[class*='acceptance'] input {
+    display: none;
+}
+
+form.wpcf7-form span[class*='acceptance'] span.wpcf7-list-item-label {
+    padding-left: 1.5em;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+form.wpcf7-form .flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+form.wpcf7-form .itm {
+    flex-basis: 48%;
+}
+
+form.wpcf7-form .sc_form_field_button{
+    text-align: center;
+}
+form.wpcf7-form .sc_form_field_button input[type="submit"]{
+    margin-top: 1.7em;
+}
+
+.wpcf7-form span[class*='acceptance'] input[type="checkbox"] + span:before{
+    top:0;
+    -webkit-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+}
+
+@media (max-width: 479px){
+    form.wpcf7-form .flex {
+        flex-direction: column;
+    }
+}
+
+/*---------------WP GDPR Compliance------------------*/
+form.wpcf7-form .wpcf7-wpgdprc input[name="wpgdprc"]{
+    display: block;
+    z-index: 1;
+    opacity: 0;
+}
+
+form.wpcf7-form .wpcf7-wpgdprc span.wpcf7-list-item {
+    margin: 0.3em 0 0 0;
+    display: block;
+    position: relative;
+    line-height: 1em;
+}
+
+form.wpcf7-form .wpcf7-wpgdprc span.wpcf7-list-item-label {
+    padding-left: 1.5em;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+form.wpcf7-form .wpcf7-wpgdprc input[name="wpgdprc"]{
+    position: absolute;
+    top:0;
+    left: 0;
+    -webkit-transform: translateY(35%);
+    -ms-transform: translateY(35%);
+    transform: translateY(35%);
+}
+
+.wpcf7-form .wpcf7-form-control-wrap input[type="checkbox"]{
+    width: auto;
+    vertical-align: baseline;
+}
+
+.wpcf7-form .sc_contact_form_info .wpcf7-form-control-wrap{
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wpcf7-form .sc_contact_form_info .wpcf7-form-control-wrap:first-child{
+    padding-right: 5px;
+}
+
+.wpcf7-form .sc_contact_form_info .wpcf7-form-control-wrap + .wpcf7-form-control-wrap{
+    padding-left: 5px;
+}
+
+.wpcf7-form p{
+    margin-bottom: .6em;
+}
+
+.wpcf7-form .sc_form_button_wrap{
+    text-align: right;
+}
+
+.wpcf7-form textarea{
+    height: 11em;
+}
+
+.wpcf7-form .sc_form_button_wrap .wpcf7-submit{
+    font-size: 15px;
+    padding: 1.127em 2.842em;
+    position: static;
+}
+
+.wpcf7-form .sc_contact_form_info .wpcf7-not-valid-tip{
+    position: static;
+}
+.wpcf7-spinner {
+    display: none !important;
+}
